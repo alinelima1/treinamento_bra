@@ -1,2 +1,2 @@
-# treinamento_bra
+# Treinamento
 Código utilizado para complemento de treinamento sobre swagger, testes integrados com h2 e wiremock no bff
