@@ -1,0 +1,10 @@
+org/treinamento/controller/CadastroController.class
+org/treinamento/model/Aluno.class
+org/treinamento/service/CadastroService.class
+org/treinamento/config/SwaggerConfig.class
+org/treinamento/controller/impl/CadastroControllerImpl.class
+org/treinamento/dto/ResponseDTO.class
+org/treinamento/service/impl/CadastroServiceImpl.class
+org/treinamento/repository/AlunoRepository.class
+org/treinamento/config/TrimmedStringTypeConfig.class
+org/treinamento/Application.class

@@ -1,0 +1,10 @@
+/home/m516288/projetos/treinamento/src/main/java/org/treinamento/model/Aluno.java
+/home/m516288/projetos/treinamento/src/main/java/org/treinamento/controller/CadastroController.java
+/home/m516288/projetos/treinamento/src/main/java/org/treinamento/config/SwaggerConfig.java
+/home/m516288/projetos/treinamento/src/main/java/org/treinamento/service/impl/CadastroServiceImpl.java
+/home/m516288/projetos/treinamento/src/main/java/org/treinamento/controller/impl/CadastroControllerImpl.java
+/home/m516288/projetos/treinamento/src/main/java/org/treinamento/config/TrimmedStringTypeConfig.java
+/home/m516288/projetos/treinamento/src/main/java/org/treinamento/service/CadastroService.java
+/home/m516288/projetos/treinamento/src/main/java/org/treinamento/repository/AlunoRepository.java
+/home/m516288/projetos/treinamento/src/main/java/org/treinamento/Application.java
+/home/m516288/projetos/treinamento/src/main/java/org/treinamento/dto/ResponseDTO.java

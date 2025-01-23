@@ -1,0 +1,7 @@
+/home/m516288/projetos/treinamento_bff/src/main/java/org/treinamento/Application.java
+/home/m516288/projetos/treinamento_bff/src/main/java/org/treinamento/config/FeignConfig.java
+/home/m516288/projetos/treinamento_bff/src/main/java/org/treinamento/controller/CadastroAlunoController.java
+/home/m516288/projetos/treinamento_bff/src/main/java/org/treinamento/dto/AlunoDTO.java
+/home/m516288/projetos/treinamento_bff/src/main/java/org/treinamento/feign/CadastroAlunoFeign.java
+/home/m516288/projetos/treinamento_bff/src/main/java/org/treinamento/service/CadastroAlunoService.java
+/home/m516288/projetos/treinamento_bff/src/main/java/org/treinamento/dto/ResponseDTO.java

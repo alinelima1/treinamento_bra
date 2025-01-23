@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <copy file="/home/m516288/projetos/treinamento_bff/target/../config/${ENVIRONMENT}/deployment/swagger/openapi.json" toFile="/home/m516288/projetos/treinamento_bff/config/PRD/deployment/swagger/openapi_domain.json" overwrite="true"/>
+  <copy file="/home/m516288/projetos/treinamento_bff/target/../config/${ENVIRONMENT}/deployment/swagger/openapi.json" toFile="/home/m516288/projetos/treinamento_bff/config/PRD/deployment/swagger/openapi_extern.json" overwrite="true"/>
+</target>
+</project>

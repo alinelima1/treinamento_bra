@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.treinamento.integration.CadastroAlunoIntegrationTest" time="9.297" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/m516288/projetos/treinamento_bff/target/test-classes:/home/m516288/projetos/treinamento_bff/target/classes:/home/m516288/.m2/repository/org/springframework/boot/spring-boot-starter-web/3.2.12/spring-boot-starter-web-3.2.12.jar:/home/m516288/.m2/repository/org/springframework/boot/spring-boot-starter/3.2.12/spring-boot-starter-3.2.12.jar:/home/m516288/.m2/repository/org/springframework/boot/spring-boot/3.2.12/spring-boot-3.2.12.jar:/home/m516288/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.2.12/spring-boot-autoconfigure-3.2.12.jar:/home/m516288/.m2/repository/org/springframework/boot/spring-boot-starter-logging/3.2.12/spring-boot-starter-logging-3.2.12.jar:/home/m516288/.m2/repository/ch/qos/logback/logback-classic/1.4.14/logback-classic-1.4.14.jar:/home/m516288/.m2/repository/ch/qos/logback/logback-core/1.4.14/logback-core-1.4.14.jar:/home/m516288/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.21.1/log4j-to-slf4j-2.21.1.jar:/home/m516288/.m2/repository/org/apache/logging/log4j/log4j-api/2.21.1/log4j-api-2.21.1.jar:/home/m516288/.m2/repository/org/slf4j/jul-to-slf4j/2.0.16/jul-to-slf4j-2.0.16.jar:/home/m516288/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar:/home/m516288/.m2/repository/org/yaml/snakeyaml/2.2/snakeyaml-2.2.jar:/home/m516288/.m2/repository/org/springframework/boot/spring-boot-starter-json/3.2.12/spring-boot-starter-json-3.2.12.jar:/home/m516288/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.4/jackson-databind-2.15.4.jar:/home/m516288/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.4/jackson-annotations-2.15.4.jar:/home/m516288/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.4/jackson-core-2.15.4.jar:/home/m516288/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.15.4/jackson-datatype-jdk8-2.15.4.jar:/home/m516288/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.15.4/jackson-datatype-jsr310-2.15.4.jar:/home/m516288/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.15.4/jackson-module-parameter-names-2.15.4.jar:/home/m516288/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/3.2.12/spring-boot-starter-tomcat-3.2.12.jar:/home/m516288/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/10.1.33/tomcat-embed-core-10.1.33.jar:/home/m516288/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/10.1.33/tomcat-embed-el-10.1.33.jar:/home/m516288/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.33/tomcat-embed-websocket-10.1.33.jar:/home/m516288/.m2/repository/org/springframework/spring-web/6.1.15/spring-web-6.1.15.jar:/home/m516288/.m2/repository/org/springframework/spring-beans/6.1.15/spring-beans-6.1.15.jar:/home/m516288/.m2/repository/io/micrometer/micrometer-observation/1.12.13/micrometer-observation-1.12.13.jar:/home/m516288/.m2/repository/io/micrometer/micrometer-commons/1.12.13/micrometer-commons-1.12.13.jar:/home/m516288/.m2/repository/org/springframework/spring-webmvc/6.1.15/spring-webmvc-6.1.15.jar:/home/m516288/.m2/repository/org/springframework/spring-aop/6.1.15/spring-aop-6.1.15.jar:/home/m516288/.m2/repository/org/springframework/spring-context/6.1.15/spring-context-6.1.15.jar:/home/m516288/.m2/repository/org/springframework/spring-expression/6.1.15/spring-expression-6.1.15.jar:/home/m516288/.m2/repository/org/springdoc/springdoc-openapi-starter-webmvc-ui/2.3.0/springdoc-openapi-starter-webmvc-ui-2.3.0.jar:/home/m516288/.m2/repository/org/springdoc/springdoc-openapi-starter-webmvc-api/2.3.0/springdoc-openapi-starter-webmvc-api-2.3.0.jar:/home/m516288/.m2/repository/org/springdoc/springdoc-openapi-starter-common/2.3.0/springdoc-openapi-starter-common-2.3.0.jar:/home/m516288/.m2/repository/io/swagger/core/v3/swagger-core-jakarta/2.2.19/swagger-core-jakarta-2.2.19.jar:/home/m516288/.m2/repository/org/apache/commons/commons-lang3/3.13.0/commons-lang3-3.13.0.jar:/home/m516288/.m2/repository/io/swagger/core/v3/swagger-annotations-jakarta/2.2.19/swagger-annotations-jakarta-2.2.19.jar:/home/m516288/.m2/repository/io/swagger/core/v3/swagger-models-jakarta/2.2.19/swagger-models-jakarta-2.2.19.jar:/home/m516288/.m2/repository/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar:/home/m516288/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.15.4/jackson-dataformat-yaml-2.15.4.jar:/home/m516288/.m2/repository/org/webjars/swagger-ui/5.10.3/swagger-ui-5.10.3.jar:/home/m516288/.m2/repository/org/springframework/boot/spring-boot-starter-test/3.2.12/spring-boot-starter-test-3.2.12.jar:/home/m516288/.m2/repository/org/springframework/boot/spring-boot-test/3.2.12/spring-boot-test-3.2.12.jar:/home/m516288/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/3.2.12/spring-boot-test-autoconfigure-3.2.12.jar:/home/m516288/.m2/repository/com/jayway/jsonpath/json-path/2.9.0/json-path-2.9.0.jar:/home/m516288/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.2/jakarta.xml.bind-api-4.0.2.jar:/home/m516288/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.3/jakarta.activation-api-2.1.3.jar:/home/m516288/.m2/repository/net/minidev/json-smart/2.5.1/json-smart-2.5.1.jar:/home/m516288/.m2/repository/net/minidev/accessors-smart/2.5.1/accessors-smart-2.5.1.jar:/home/m516288/.m2/repository/org/ow2/asm/asm/9.6/asm-9.6.jar:/home/m516288/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:/home/m516288/.m2/repository/net/bytebuddy/byte-buddy/1.14.19/byte-buddy-1.14.19.jar:/home/m516288/.m2/repository/org/awaitility/awaitility/4.2.2/awaitility-4.2.2.jar:/home/m516288/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/home/m516288/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.5/junit-jupiter-5.10.5.jar:/home/m516288/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.5/junit-jupiter-api-5.10.5.jar:/home/m516288/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/m516288/.m2/repository/org/junit/platform/junit-platform-commons/1.10.5/junit-platform-commons-1.10.5.jar:/home/m516288/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/m516288/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.5/junit-jupiter-params-5.10.5.jar:/home/m516288/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.5/junit-jupiter-engine-5.10.5.jar:/home/m516288/.m2/repository/org/junit/platform/junit-platform-engine/1.10.5/junit-platform-engine-1.10.5.jar:/home/m516288/.m2/repository/org/mockito/mockito-core/5.7.0/mockito-core-5.7.0.jar:/home/m516288/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.19/byte-buddy-agent-1.14.19.jar:/home/m516288/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/home/m516288/.m2/repository/org/mockito/mockito-junit-jupiter/5.7.0/mockito-junit-jupiter-5.7.0.jar:/home/m516288/.m2/repository/org/skyscreamer/jsonassert/1.5.3/jsonassert-1.5.3.jar:/home/m516288/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/home/m516288/.m2/repository/org/springframework/spring-core/6.1.15/spring-core-6.1.15.jar:/home/m516288/.m2/repository/org/springframework/spring-jcl/6.1.15/spring-jcl-6.1.15.jar:/home/m516288/.m2/repository/org/springframework/spring-test/6.1.15/spring-test-6.1.15.jar:/home/m516288/.m2/repository/org/xmlunit/xmlunit-core/2.9.1/xmlunit-core-2.9.1.jar:/home/m516288/.m2/repository/com/h2database/h2/2.1.214/h2-2.1.214.jar:/home/m516288/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/3.2.12/spring-boot-starter-data-jpa-3.2.12.jar:/home/m516288/.m2/repository/org/springframework/boot/spring-boot-starter-aop/3.2.12/spring-boot-starter-aop-3.2.12.jar:/home/m516288/.m2/repository/org/aspectj/aspectjweaver/1.9.22.1/aspectjweaver-1.9.22.1.jar:/home/m516288/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/3.2.12/spring-boot-starter-jdbc-3.2.12.jar:/home/m516288/.m2/repository/com/zaxxer/HikariCP/5.0.1/HikariCP-5.0.1.jar:/home/m516288/.m2/repository/org/springframework/spring-jdbc/6.1.15/spring-jdbc-6.1.15.jar:/home/m516288/.m2/repository/org/hibernate/orm/hibernate-core/6.4.10.Final/hibernate-core-6.4.10.Final.jar:/home/m516288/.m2/repository/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar:/home/m516288/.m2/repository/jakarta/transaction/jakarta.transaction-api/2.0.1/jakarta.transaction-api-2.0.1.jar:/home/m516288/.m2/repository/org/jboss/logging/jboss-logging/3.5.3.Final/jboss-logging-3.5.3.Final.jar:/home/m516288/.m2/repository/org/hibernate/common/hibernate-commons-annotations/6.0.6.Final/hibernate-commons-annotations-6.0.6.Final.jar:/home/m516288/.m2/repository/io/smallrye/jandex/3.1.2/jandex-3.1.2.jar:/home/m516288/.m2/repository/com/fasterxml/classmate/1.6.0/classmate-1.6.0.jar:/home/m516288/.m2/repository/org/glassfish/jaxb/jaxb-runtime/4.0.5/jaxb-runtime-4.0.5.jar:/home/m516288/.m2/repository/org/glassfish/jaxb/jaxb-core/4.0.5/jaxb-core-4.0.5.jar:/home/m516288/.m2/repository/org/eclipse/angus/angus-activation/2.0.2/angus-activation-2.0.2.jar:/home/m516288/.m2/repository/org/glassfish/jaxb/txw2/4.0.5/txw2-4.0.5.jar:/home/m516288/.m2/repository/com/sun/istack/istack-commons-runtime/4.1.2/istack-commons-runtime-4.1.2.jar:/home/m516288/.m2/repository/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar:/home/m516288/.m2/repository/org/antlr/antlr4-runtime/4.13.0/antlr4-runtime-4.13.0.jar:/home/m516288/.m2/repository/org/springframework/data/spring-data-jpa/3.2.12/spring-data-jpa-3.2.12.jar:/home/m516288/.m2/repository/org/springframework/data/spring-data-commons/3.2.12/spring-data-commons-3.2.12.jar:/home/m516288/.m2/repository/org/springframework/spring-orm/6.1.15/spring-orm-6.1.15.jar:/home/m516288/.m2/repository/org/springframework/spring-tx/6.1.15/spring-tx-6.1.15.jar:/home/m516288/.m2/repository/org/springframework/spring-aspects/6.1.15/spring-aspects-6.1.15.jar:/home/m516288/.m2/repository/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar:/home/m516288/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar:/home/m516288/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar:/home/m516288/.m2/repository/org/springframework/cloud/spring-cloud-starter-openfeign/4.1.4/spring-cloud-starter-openfeign-4.1.4.jar:/home/m516288/.m2/repository/org/springframework/cloud/spring-cloud-starter/4.1.5/spring-cloud-starter-4.1.5.jar:/home/m516288/.m2/repository/org/springframework/cloud/spring-cloud-context/4.1.5/spring-cloud-context-4.1.5.jar:/home/m516288/.m2/repository/org/springframework/security/spring-security-rsa/1.1.3/spring-security-rsa-1.1.3.jar:/home/m516288/.m2/repository/org/bouncycastle/bcprov-jdk18on/1.78/bcprov-jdk18on-1.78.jar:/home/m516288/.m2/repository/org/springframework/cloud/spring-cloud-openfeign-core/4.1.4/spring-cloud-openfeign-core-4.1.4.jar:/home/m516288/.m2/repository/io/github/openfeign/feign-form-spring/13.5/feign-form-spring-13.5.jar:/home/m516288/.m2/repository/io/github/openfeign/feign-form/13.5/feign-form-13.5.jar:/home/m516288/.m2/repository/commons-fileupload/commons-fileupload/1.5/commons-fileupload-1.5.jar:/home/m516288/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/home/m516288/.m2/repository/org/springframework/cloud/spring-cloud-commons/4.1.5/spring-cloud-commons-4.1.5.jar:/home/m516288/.m2/repository/org/springframework/security/spring-security-crypto/6.2.8/spring-security-crypto-6.2.8.jar:/home/m516288/.m2/repository/io/github/openfeign/feign-core/13.5/feign-core-13.5.jar:/home/m516288/.m2/repository/io/github/openfeign/feign-slf4j/13.5/feign-slf4j-13.5.jar:/home/m516288/.m2/repository/com/maciejwalkowiak/spring/wiremock-spring-boot/2.1.3/wiremock-spring-boot-2.1.3.jar:/home/m516288/.m2/repository/org/wiremock/wiremock-standalone/3.3.1/wiremock-standalone-3.3.1.jar:/home/m516288/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="org.jboss.logging.provider" value="slf4j"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/home/m516288/.sdkman/candidates/java/17.0.12-oracle/lib"/>
+    <property name="sun.java.command" value="/home/m516288/projetos/treinamento_bff/target/surefire/surefirebooter-20250122140725155_3.jar /home/m516288/projetos/treinamento_bff/target/surefire 2025-01-22T14-07-24_942-jvmRun1 surefire-20250122140725155_1tmp surefire_0-20250122140725155_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/m516288/projetos/treinamento_bff/target/test-classes:/home/m516288/projetos/treinamento_bff/target/classes:/home/m516288/.m2/repository/org/springframework/boot/spring-boot-starter-web/3.2.12/spring-boot-starter-web-3.2.12.jar:/home/m516288/.m2/repository/org/springframework/boot/spring-boot-starter/3.2.12/spring-boot-starter-3.2.12.jar:/home/m516288/.m2/repository/org/springframework/boot/spring-boot/3.2.12/spring-boot-3.2.12.jar:/home/m516288/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.2.12/spring-boot-autoconfigure-3.2.12.jar:/home/m516288/.m2/repository/org/springframework/boot/spring-boot-starter-logging/3.2.12/spring-boot-starter-logging-3.2.12.jar:/home/m516288/.m2/repository/ch/qos/logback/logback-classic/1.4.14/logback-classic-1.4.14.jar:/home/m516288/.m2/repository/ch/qos/logback/logback-core/1.4.14/logback-core-1.4.14.jar:/home/m516288/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.21.1/log4j-to-slf4j-2.21.1.jar:/home/m516288/.m2/repository/org/apache/logging/log4j/log4j-api/2.21.1/log4j-api-2.21.1.jar:/home/m516288/.m2/repository/org/slf4j/jul-to-slf4j/2.0.16/jul-to-slf4j-2.0.16.jar:/home/m516288/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar:/home/m516288/.m2/repository/org/yaml/snakeyaml/2.2/snakeyaml-2.2.jar:/home/m516288/.m2/repository/org/springframework/boot/spring-boot-starter-json/3.2.12/spring-boot-starter-json-3.2.12.jar:/home/m516288/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.4/jackson-databind-2.15.4.jar:/home/m516288/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.4/jackson-annotations-2.15.4.jar:/home/m516288/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.4/jackson-core-2.15.4.jar:/home/m516288/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.15.4/jackson-datatype-jdk8-2.15.4.jar:/home/m516288/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.15.4/jackson-datatype-jsr310-2.15.4.jar:/home/m516288/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.15.4/jackson-module-parameter-names-2.15.4.jar:/home/m516288/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/3.2.12/spring-boot-starter-tomcat-3.2.12.jar:/home/m516288/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/10.1.33/tomcat-embed-core-10.1.33.jar:/home/m516288/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/10.1.33/tomcat-embed-el-10.1.33.jar:/home/m516288/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.33/tomcat-embed-websocket-10.1.33.jar:/home/m516288/.m2/repository/org/springframework/spring-web/6.1.15/spring-web-6.1.15.jar:/home/m516288/.m2/repository/org/springframework/spring-beans/6.1.15/spring-beans-6.1.15.jar:/home/m516288/.m2/repository/io/micrometer/micrometer-observation/1.12.13/micrometer-observation-1.12.13.jar:/home/m516288/.m2/repository/io/micrometer/micrometer-commons/1.12.13/micrometer-commons-1.12.13.jar:/home/m516288/.m2/repository/org/springframework/spring-webmvc/6.1.15/spring-webmvc-6.1.15.jar:/home/m516288/.m2/repository/org/springframework/spring-aop/6.1.15/spring-aop-6.1.15.jar:/home/m516288/.m2/repository/org/springframework/spring-context/6.1.15/spring-context-6.1.15.jar:/home/m516288/.m2/repository/org/springframework/spring-expression/6.1.15/spring-expression-6.1.15.jar:/home/m516288/.m2/repository/org/springdoc/springdoc-openapi-starter-webmvc-ui/2.3.0/springdoc-openapi-starter-webmvc-ui-2.3.0.jar:/home/m516288/.m2/repository/org/springdoc/springdoc-openapi-starter-webmvc-api/2.3.0/springdoc-openapi-starter-webmvc-api-2.3.0.jar:/home/m516288/.m2/repository/org/springdoc/springdoc-openapi-starter-common/2.3.0/springdoc-openapi-starter-common-2.3.0.jar:/home/m516288/.m2/repository/io/swagger/core/v3/swagger-core-jakarta/2.2.19/swagger-core-jakarta-2.2.19.jar:/home/m516288/.m2/repository/org/apache/commons/commons-lang3/3.13.0/commons-lang3-3.13.0.jar:/home/m516288/.m2/repository/io/swagger/core/v3/swagger-annotations-jakarta/2.2.19/swagger-annotations-jakarta-2.2.19.jar:/home/m516288/.m2/repository/io/swagger/core/v3/swagger-models-jakarta/2.2.19/swagger-models-jakarta-2.2.19.jar:/home/m516288/.m2/repository/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar:/home/m516288/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.15.4/jackson-dataformat-yaml-2.15.4.jar:/home/m516288/.m2/repository/org/webjars/swagger-ui/5.10.3/swagger-ui-5.10.3.jar:/home/m516288/.m2/repository/org/springframework/boot/spring-boot-starter-test/3.2.12/spring-boot-starter-test-3.2.12.jar:/home/m516288/.m2/repository/org/springframework/boot/spring-boot-test/3.2.12/spring-boot-test-3.2.12.jar:/home/m516288/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/3.2.12/spring-boot-test-autoconfigure-3.2.12.jar:/home/m516288/.m2/repository/com/jayway/jsonpath/json-path/2.9.0/json-path-2.9.0.jar:/home/m516288/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.2/jakarta.xml.bind-api-4.0.2.jar:/home/m516288/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.3/jakarta.activation-api-2.1.3.jar:/home/m516288/.m2/repository/net/minidev/json-smart/2.5.1/json-smart-2.5.1.jar:/home/m516288/.m2/repository/net/minidev/accessors-smart/2.5.1/accessors-smart-2.5.1.jar:/home/m516288/.m2/repository/org/ow2/asm/asm/9.6/asm-9.6.jar:/home/m516288/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:/home/m516288/.m2/repository/net/bytebuddy/byte-buddy/1.14.19/byte-buddy-1.14.19.jar:/home/m516288/.m2/repository/org/awaitility/awaitility/4.2.2/awaitility-4.2.2.jar:/home/m516288/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/home/m516288/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.5/junit-jupiter-5.10.5.jar:/home/m516288/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.5/junit-jupiter-api-5.10.5.jar:/home/m516288/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/m516288/.m2/repository/org/junit/platform/junit-platform-commons/1.10.5/junit-platform-commons-1.10.5.jar:/home/m516288/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/m516288/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.5/junit-jupiter-params-5.10.5.jar:/home/m516288/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.5/junit-jupiter-engine-5.10.5.jar:/home/m516288/.m2/repository/org/junit/platform/junit-platform-engine/1.10.5/junit-platform-engine-1.10.5.jar:/home/m516288/.m2/repository/org/mockito/mockito-core/5.7.0/mockito-core-5.7.0.jar:/home/m516288/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.19/byte-buddy-agent-1.14.19.jar:/home/m516288/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/home/m516288/.m2/repository/org/mockito/mockito-junit-jupiter/5.7.0/mockito-junit-jupiter-5.7.0.jar:/home/m516288/.m2/repository/org/skyscreamer/jsonassert/1.5.3/jsonassert-1.5.3.jar:/home/m516288/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/home/m516288/.m2/repository/org/springframework/spring-core/6.1.15/spring-core-6.1.15.jar:/home/m516288/.m2/repository/org/springframework/spring-jcl/6.1.15/spring-jcl-6.1.15.jar:/home/m516288/.m2/repository/org/springframework/spring-test/6.1.15/spring-test-6.1.15.jar:/home/m516288/.m2/repository/org/xmlunit/xmlunit-core/2.9.1/xmlunit-core-2.9.1.jar:/home/m516288/.m2/repository/com/h2database/h2/2.1.214/h2-2.1.214.jar:/home/m516288/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/3.2.12/spring-boot-starter-data-jpa-3.2.12.jar:/home/m516288/.m2/repository/org/springframework/boot/spring-boot-starter-aop/3.2.12/spring-boot-starter-aop-3.2.12.jar:/home/m516288/.m2/repository/org/aspectj/aspectjweaver/1.9.22.1/aspectjweaver-1.9.22.1.jar:/home/m516288/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/3.2.12/spring-boot-starter-jdbc-3.2.12.jar:/home/m516288/.m2/repository/com/zaxxer/HikariCP/5.0.1/HikariCP-5.0.1.jar:/home/m516288/.m2/repository/org/springframework/spring-jdbc/6.1.15/spring-jdbc-6.1.15.jar:/home/m516288/.m2/repository/org/hibernate/orm/hibernate-core/6.4.10.Final/hibernate-core-6.4.10.Final.jar:/home/m516288/.m2/repository/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar:/home/m516288/.m2/repository/jakarta/transaction/jakarta.transaction-api/2.0.1/jakarta.transaction-api-2.0.1.jar:/home/m516288/.m2/repository/org/jboss/logging/jboss-logging/3.5.3.Final/jboss-logging-3.5.3.Final.jar:/home/m516288/.m2/repository/org/hibernate/common/hibernate-commons-annotations/6.0.6.Final/hibernate-commons-annotations-6.0.6.Final.jar:/home/m516288/.m2/repository/io/smallrye/jandex/3.1.2/jandex-3.1.2.jar:/home/m516288/.m2/repository/com/fasterxml/classmate/1.6.0/classmate-1.6.0.jar:/home/m516288/.m2/repository/org/glassfish/jaxb/jaxb-runtime/4.0.5/jaxb-runtime-4.0.5.jar:/home/m516288/.m2/repository/org/glassfish/jaxb/jaxb-core/4.0.5/jaxb-core-4.0.5.jar:/home/m516288/.m2/repository/org/eclipse/angus/angus-activation/2.0.2/angus-activation-2.0.2.jar:/home/m516288/.m2/repository/org/glassfish/jaxb/txw2/4.0.5/txw2-4.0.5.jar:/home/m516288/.m2/repository/com/sun/istack/istack-commons-runtime/4.1.2/istack-commons-runtime-4.1.2.jar:/home/m516288/.m2/repository/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar:/home/m516288/.m2/repository/org/antlr/antlr4-runtime/4.13.0/antlr4-runtime-4.13.0.jar:/home/m516288/.m2/repository/org/springframework/data/spring-data-jpa/3.2.12/spring-data-jpa-3.2.12.jar:/home/m516288/.m2/repository/org/springframework/data/spring-data-commons/3.2.12/spring-data-commons-3.2.12.jar:/home/m516288/.m2/repository/org/springframework/spring-orm/6.1.15/spring-orm-6.1.15.jar:/home/m516288/.m2/repository/org/springframework/spring-tx/6.1.15/spring-tx-6.1.15.jar:/home/m516288/.m2/repository/org/springframework/spring-aspects/6.1.15/spring-aspects-6.1.15.jar:/home/m516288/.m2/repository/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar:/home/m516288/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar:/home/m516288/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar:/home/m516288/.m2/repository/org/springframework/cloud/spring-cloud-starter-openfeign/4.1.4/spring-cloud-starter-openfeign-4.1.4.jar:/home/m516288/.m2/repository/org/springframework/cloud/spring-cloud-starter/4.1.5/spring-cloud-starter-4.1.5.jar:/home/m516288/.m2/repository/org/springframework/cloud/spring-cloud-context/4.1.5/spring-cloud-context-4.1.5.jar:/home/m516288/.m2/repository/org/springframework/security/spring-security-rsa/1.1.3/spring-security-rsa-1.1.3.jar:/home/m516288/.m2/repository/org/bouncycastle/bcprov-jdk18on/1.78/bcprov-jdk18on-1.78.jar:/home/m516288/.m2/repository/org/springframework/cloud/spring-cloud-openfeign-core/4.1.4/spring-cloud-openfeign-core-4.1.4.jar:/home/m516288/.m2/repository/io/github/openfeign/feign-form-spring/13.5/feign-form-spring-13.5.jar:/home/m516288/.m2/repository/io/github/openfeign/feign-form/13.5/feign-form-13.5.jar:/home/m516288/.m2/repository/commons-fileupload/commons-fileupload/1.5/commons-fileupload-1.5.jar:/home/m516288/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/home/m516288/.m2/repository/org/springframework/cloud/spring-cloud-commons/4.1.5/spring-cloud-commons-4.1.5.jar:/home/m516288/.m2/repository/org/springframework/security/spring-security-crypto/6.2.8/spring-security-crypto-6.2.8.jar:/home/m516288/.m2/repository/io/github/openfeign/feign-core/13.5/feign-core-13.5.jar:/home/m516288/.m2/repository/io/github/openfeign/feign-slf4j/13.5/feign-slf4j-13.5.jar:/home/m516288/.m2/repository/com/maciejwalkowiak/spring/wiremock-spring-boot/2.1.3/wiremock-spring-boot-2.1.3.jar:/home/m516288/.m2/repository/org/wiremock/wiremock-standalone/3.3.1/wiremock-standalone-3.3.1.jar:/home/m516288/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/m516288"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="/home/m516288/.sdkman/candidates/java/17.0.12-oracle"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/m516288/projetos/treinamento_bff"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="FILE_LOG_CHARSET" value="UTF-8"/>
+    <property name="java.awt.headless" value="true"/>
+    <property name="surefire.real.class.path" value="/home/m516288/projetos/treinamento_bff/target/surefire/surefirebooter-20250122140725155_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
+    <property name="user.name" value="m516288"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.10.102.1-microsoft-standard-WSL2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/m516288/.m2/repository"/>
+    <property name="javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom" value="com.sun.org.apache.xpath.internal.jaxp.XPathFactoryImpl"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="jetty.git.hash" value="5a9a771a9fbcb9d36993630850f612581b78c13f"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="wiremock.org.eclipse.jetty.http.HttpGenerator.STRICT" value="true"/>
+    <property name="com.zaxxer.hikari.pool_number" value="1"/>
+    <property name="java.version" value="17.0.12"/>
+    <property name="user.dir" value="/home/m516288/projetos/treinamento_bff"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PID" value="3107"/>
+    <property name="CONSOLE_LOG_CHARSET" value="UTF-8"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.12+8-LTS-286"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="javax.xml.transform.TransformerFactory" value="com.sun.org.apache.xalan.internal.xsltc.trax.TransformerFactoryImpl"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testSalvarAluno_201" classname="org.treinamento.integration.CadastroAlunoIntegrationTest" time="1.2">
+    <system-out><![CDATA[14:07:26.242 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [org.treinamento.integration.CadastroAlunoIntegrationTest]: CadastroAlunoIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:07:26.376 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration org.treinamento.Application for test class org.treinamento.integration.CadastroAlunoIntegrationTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v3.2.12)
+
+2025-01-22T14:07:28.079-03:00  INFO 3107 --- [           main] c.maciejwalkowiak.wiremock.spring.Store  : Resolving store from context: application
+2025-01-22T14:07:28.118-03:00  INFO 3107 --- [           main] c.m.w.spring.WireMockContextCustomizer   : Configuring WireMockServer with name 'wiremock-server' on port: 8280
+2025-01-22T14:07:29.042-03:00  INFO 3107 --- [           main] c.m.w.spring.WireMockContextCustomizer   : Started WireMockServer with name 'wiremock-server':http://localhost:8280
+2025-01-22T14:07:29.043-03:00  INFO 3107 --- [           main] c.maciejwalkowiak.wiremock.spring.Store  : Resolving store from context: application
+2025-01-22T14:07:29.070-03:00  INFO 3107 --- [           main] o.t.i.CadastroAlunoIntegrationTest       : Starting CadastroAlunoIntegrationTest using Java 17.0.12 with PID 3107 (started by m516288 in /home/m516288/projetos/treinamento_bff)
+2025-01-22T14:07:29.071-03:00  INFO 3107 --- [           main] o.t.i.CadastroAlunoIntegrationTest       : The following 1 profile is active: "test"
+2025-01-22T14:07:29.978-03:00  INFO 3107 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-22T14:07:30.031-03:00  INFO 3107 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34 ms. Found 0 JPA repository interfaces.
+2025-01-22T14:07:30.327-03:00  INFO 3107 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=aafc586c-48f0-33bd-bcc0-1d255902657d
+2025-01-22T14:07:30.640-03:00  INFO 3107 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-22T14:07:30.851-03:00  INFO 3107 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:1aeef642-8201-40c8-b6e9-193a52b93b57 user=SA
+2025-01-22T14:07:30.853-03:00  INFO 3107 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-22T14:07:30.908-03:00  INFO 3107 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-22T14:07:30.970-03:00  INFO 3107 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.10.Final
+2025-01-22T14:07:31.018-03:00  INFO 3107 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-22T14:07:31.267-03:00  INFO 3107 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-22T14:07:31.631-03:00  INFO 3107 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-22T14:07:31.635-03:00  INFO 3107 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-22T14:07:32.043-03:00  WARN 3107 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-22T14:07:33.950-03:00  INFO 3107 --- [           main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2025-01-22T14:07:34.030-03:00  INFO 3107 --- [           main] o.t.i.CadastroAlunoIntegrationTest       : Started CadastroAlunoIntegrationTest in 7.468 seconds (process running for 8.779)
+2025-01-22T14:07:34.908-03:00  INFO 3107 --- [           main] c.maciejwalkowiak.wiremock.spring.Store  : Resolving store from context: application
+2025-01-22T14:07:34.911-03:00  INFO 3107 --- [           main] c.maciejwalkowiak.wiremock.spring.Store  : Resolving store from context: application
+2025-01-22T14:07:35.216-03:00  INFO 3107 --- [qtp404648659-27] WireMock                                 : Request received:
+127.0.0.1 - POST /aluno/salvar
+
+Content-Type: [application/json]
+Accept: [*/*]
+User-Agent: [Java/17.0.12]
+Host: [localhost:8280]
+Connection: [keep-alive]
+Content-Length: [118]
+{"matricula":"180","nomeAluno":"Aline Abreu","endereco":"Rua W, 654","cpf":"08400385161","dataMatricula":"20/01/2024"}
+
+
+Matched response definition:
+{
+  "status" : 201,
+  "body" : "{\r\n  \"totalPaginas\": \"1\",\r\n  \"mensagem\": \"Aluno salvo com sucesso.\",\r\n  \"content\": [\r\n    {\r\n      \"matricula\": \"180\",\r\n      \"nomeAluno\": \"Aline Abreu\",\r\n      \"endereco\": \"Rua W, 654\",\r\n      \"cpf\": \"08400385161\",\r\n      \"dataMatricula\": \"20/01/2024\"\r\n    }\r\n  ]\r\n}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 201
+Content-Type: [application/json]
+Matched-Stub-Id: [ebc6e16c-52b9-4829-8187-f2d2ef0de18e]
+
+]]></system-out>
+  </testcase>
+  <testcase name="testSalvarAluno_400" classname="org.treinamento.integration.CadastroAlunoIntegrationTest" time="0.03">
+    <system-out><![CDATA[2025-01-22T14:07:35.284-03:00  INFO 3107 --- [           main] c.maciejwalkowiak.wiremock.spring.Store  : Resolving store from context: application
+2025-01-22T14:07:35.285-03:00  INFO 3107 --- [           main] c.maciejwalkowiak.wiremock.spring.Store  : Resolving store from context: application
+2025-01-22T14:07:35.299-03:00  INFO 3107 --- [qtp404648659-21] WireMock                                 : Request received:
+127.0.0.1 - POST /aluno/salvar
+
+Content-Type: [application/json]
+Accept: [*/*]
+User-Agent: [Java/17.0.12]
+Host: [localhost:8280]
+Connection: [keep-alive]
+Content-Length: [117]
+{"matricula":null,"nomeAluno":"Aline Abreu","endereco":"Rua W, 654","cpf":"08400385161","dataMatricula":"20/01/2024"}
+
+
+Matched response definition:
+{
+  "status" : 400,
+  "body" : "{\r\n  \"totalPaginas\": \"0\",\r\n  \"mensagem\": \"Não foi possível salvar o aluno, verifique os dados e tente novamente.\",\r\n  \"content\": []\r\n}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 400
+Content-Type: [application/json]
+Matched-Stub-Id: [4c8729d3-bfb4-4488-b456-6f4ddcb3187d]
+
+]]></system-out>
+  </testcase>
+  <testcase name="testObterAluno_200" classname="org.treinamento.integration.CadastroAlunoIntegrationTest" time="0.021">
+    <system-out><![CDATA[2025-01-22T14:07:35.311-03:00  INFO 3107 --- [           main] c.maciejwalkowiak.wiremock.spring.Store  : Resolving store from context: application
+2025-01-22T14:07:35.312-03:00  INFO 3107 --- [           main] c.maciejwalkowiak.wiremock.spring.Store  : Resolving store from context: application
+2025-01-22T14:07:35.325-03:00  INFO 3107 --- [qtp404648659-26] WireMock                                 : Request received:
+127.0.0.1 - GET /aluno?matricula=150
+
+Accept: [*/*]
+User-Agent: [Java/17.0.12]
+Host: [localhost:8280]
+Connection: [keep-alive]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "{\r\n  \"totalPaginas\": \"1\",\r\n  \"mensagem\": \"Retorno sucesso.\",\r\n  \"content\": [\r\n    {\r\n      \"matricula\": \"150\",\r\n      \"nomeAluno\": \"Eduardo Ribeiro\",\r\n      \"endereco\": \"Rua Y, 913\",\r\n      \"cpf\": \"56789012345\",\r\n      \"dataMatricula\": \"25/01/2023\"\r\n    }\r\n  ]\r\n}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+Matched-Stub-Id: [01f55b53-0cd8-4c68-9d1f-131abd15f8a3]
+
+]]></system-out>
+  </testcase>
+  <testcase name="testObterAluno_400" classname="org.treinamento.integration.CadastroAlunoIntegrationTest" time="0.012">
+    <system-out><![CDATA[2025-01-22T14:07:35.334-03:00  INFO 3107 --- [           main] c.maciejwalkowiak.wiremock.spring.Store  : Resolving store from context: application
+2025-01-22T14:07:35.335-03:00  INFO 3107 --- [           main] c.maciejwalkowiak.wiremock.spring.Store  : Resolving store from context: application
+2025-01-22T14:07:35.339-03:00  INFO 3107 --- [qtp404648659-25] WireMock                                 : Request received:
+127.0.0.1 - GET /aluno?matricula=151
+
+Accept: [*/*]
+User-Agent: [Java/17.0.12]
+Host: [localhost:8280]
+Connection: [keep-alive]
+
+
+
+Matched response definition:
+{
+  "status" : 400,
+  "body" : "{\r\n  \"totalPaginas\": \"0\",\r\n  \"mensagem\": \"Não foi possível localizar um aluno com esta matrícula\",\r\n  \"content\": []\r\n}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 400
+Content-Type: [application/json]
+Matched-Stub-Id: [1e4c3802-653f-474b-90b1-eea93e2ae013]
+
+]]></system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,13 @@
+{
+  "totalPaginas": "1",
+  "mensagem": "Retorno sucesso.",
+  "content": [
+    {
+      "matricula": "150",
+      "nomeAluno": "Eduardo Ribeiro",
+      "endereco": "Rua Y, 913",
+      "cpf": "56789012345",
+      "dataMatricula": "25/01/2023"
+    }
+  ]
+}

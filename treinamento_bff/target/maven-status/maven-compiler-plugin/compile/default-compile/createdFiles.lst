@@ -1,0 +1,7 @@
+org/treinamento/controller/CadastroAlunoController.class
+org/treinamento/dto/AlunoDTO.class
+org/treinamento/dto/ResponseDTO.class
+org/treinamento/service/CadastroAlunoService.class
+org/treinamento/config/FeignConfig.class
+org/treinamento/feign/CadastroAlunoFeign.class
+org/treinamento/Application.class
